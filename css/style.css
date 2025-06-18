@@ -645,7 +645,7 @@ h4 + p {
 .scroll-track {
   display: flex;
   gap: 25px;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 20s linear infinite;
   width:max-content
 }
 
