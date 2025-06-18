@@ -638,13 +638,15 @@ h4 + p {
 /* Certifications Scroll Style */
 .scroll-wrapper {
   overflow: hidden;
+  width:100%;
   position: relative;
 }
 
 .scroll-track {
   display: flex;
   gap: 25px;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 25s linear infinite;
+  width:max-content
 }
 
 .scroll-track img {
@@ -652,12 +654,13 @@ h4 + p {
   width: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  flex-shrink:0;
 }
 
 /* Scroll Animation */
 @keyframes scroll-left {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-50%); }
 }
 
 /* FOOTER STYLING */
