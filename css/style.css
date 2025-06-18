@@ -644,7 +644,7 @@ h4 + p {
 .scroll-track {
   display: flex;
   gap: 25px;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 10s linear infinite;
 }
 
 .scroll-track img {
